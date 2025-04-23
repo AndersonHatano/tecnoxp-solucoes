@@ -206,7 +206,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center pb-5">
         <button
           className="bg-blue-600 rounded-full py-2 px-4 hover:bg-blue-700 transition-colors duration-200"
           type="button"
