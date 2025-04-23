@@ -149,7 +149,7 @@ export default function Home() {
             style={{ transformStyle: "preserve-3d" }}>
 
             <Image
-              src="/aws-logo.svg"
+              src="/logo-aws.svg"
               width={120}
               height={120}
               alt="logo da aws"/>
@@ -199,11 +199,26 @@ export default function Home() {
         <p className={`${poppins.className} text-sm pl-4`}>Com a <strong>Tecno XP, seu negócio vai além — vai mais rápido, mais longe e com mais clientes felizes.</strong></p>
       </div>
 
-      <div className="flex pt-3 pl-4 pr-4">
+      <div className="flex pt-3 pl-4 pr-4 pb-3">
         <div>
           <p className={`${poppins.className} text-sm`}><strong>Tecnologia confiável. Resultados reais.</strong></p>
           <p className={`${poppins.className} text-sm`}><strong>Elevando a eXPeriência</strong> do seu cliente — e o futuro da sua empresa.</p>
         </div>
+      </div>
+
+      <div className="flex justify-center">
+        <button
+          className="bg-blue-600 rounded-full py-2 px-4 hover:bg-blue-700 transition-colors duration-200"
+          type="button"
+          onClick={() =>
+            window.location.href =
+              "https://web.whatsapp.com/send?phone=55999163866&text&type=phone_number&app_absent=0"
+          }
+        >
+          <span className={`${poppins.className} text-sm text-white font-semibold`}>
+            Fale agora com nossos especialista
+          </span>
+        </button>
       </div>
     </div>
   );
