@@ -212,7 +212,7 @@ export default function Home() {
           type="button"
           onClick={() =>
             window.location.href =
-              "whatsapp://send?phone=55999163866"
+              "whatsapp://send?phone=5534999163866"
           }
         >
           <span className={`${poppins.className} text-sm text-white font-semibold`}>
