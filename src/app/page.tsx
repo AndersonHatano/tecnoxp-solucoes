@@ -145,7 +145,7 @@ export default function Home() {
         <div className="flex space-x-2">
 
           <div
-            className="min-w-[300px] bg-gray-100 p-4 rounded shadow transform transition duration-300 hover:scale-105 hover:[transform:rotateY(6deg)]"
+            className="min-w-[300px] bg-gray-100 p-4 rounded shadow transform transition duration-300 hover:scale-105 hover:[transform:rotateY(6deg)] flex items-center justify-center"
             style={{ transformStyle: "preserve-3d" }}>
 
             <Image
@@ -156,7 +156,7 @@ export default function Home() {
           </div>
 
           <div
-            className="min-w-[300px] bg-gray-100 p-4 rounded shadow transform transition duration-300 hover:scale-105 hover:[transform:rotateY(6deg)]"
+            className="min-w-[300px] bg-gray-100 p-4 rounded shadow transform transition duration-300 hover:scale-105 hover:[transform:rotateY(6deg)] flex items-center justify-center"
             style={{ transformStyle: "preserve-3d" }}>
 
             <Image
@@ -167,7 +167,7 @@ export default function Home() {
           </div>
 
           <div
-            className="min-w-[300px] bg-gray-100 p-4 rounded shadow transform transition duration-300 hover:scale-105 hover:[transform:rotateY(6deg)]"
+            className="min-w-[300px] bg-gray-100 p-4 rounded shadow transform transition duration-300 hover:scale-105 hover:[transform:rotateY(6deg)] flex items-center justify-center"
             style={{ transformStyle: "preserve-3d" }}>
 
             <Image
@@ -178,7 +178,7 @@ export default function Home() {
           </div>
         
           <div
-            className="min-w-[300px] bg-gray-100 p-4 rounded shadow transform transition duration-300 hover:scale-105 hover:[transform:rotateY(6deg)]"
+            className="min-w-[300px] bg-gray-100 p-4 rounded shadow transform transition duration-300 hover:scale-105 hover:[transform:rotateY(6deg)] flex items-center justify-center"
             style={{ transformStyle: "preserve-3d" }}>
 
             <Image
